@@ -180,7 +180,6 @@
 }
 
 .card__icon-button {
-  border: none;
   background-color: transparent;
   transition: border-color 0.3s ease;
   border: solid 2px transparent;
