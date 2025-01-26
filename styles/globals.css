@@ -10,6 +10,9 @@
 
 body {
   margin: 0;
+  background-image: var(--background-image);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1,
@@ -35,6 +38,10 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+}
+
+button {
+  cursor: pointer;
 }
 
 ul,

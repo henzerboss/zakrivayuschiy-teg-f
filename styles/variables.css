@@ -1,1 +1,53 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font-family: "Inter-Variable";
+  --contrast-font-family: "PressStart2P-Regular";
+  --title-contrast-font-weight: 700;
+  --content-contrast-font-weight: 400;
+  --variable-inline-size: clamp(375px, 90%, 700px);
+  --header-logo-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --border-text-color: #fff;
+  --position-label-top: 25px;
+  --position-label-right: 25px;
+  --content-text-padding-inline: 25px;
+  --content-text-line-height: 1.16em;
+  --content_save-for-memory-svg-width: 21px;
+  --dialog-max-inline-size: 353px;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+  --contour-heart: #000;
+  --sparks-heart: red;
+  --main-body-heart: transparent;
+  --core-heart: transparent;
+}
+
+@media (width < 376px) {
+  :root {
+    --variable-inline-size: 100%;
+    --header-logo-font-size: clamp(2rem, 0.1111rem + 12.5926vw, 3.0625rem);
+    --position-label-top: 22px;
+    --position-label-right: 11px;
+    --content-text-padding-inline: 25px 25.2px;
+    --content-text-line-height: 1.16em;
+    --content_save-for-memory-svg-width: 28px;
+    --dialog-max-inline-size: 341px;
+  }
+  .button__style.content_save-for-memory {
+    flex-direction: column;
+  }
+}
