@@ -162,11 +162,14 @@
 }
 
 .card__icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   transition: border-color 0.3s ease;
   border: solid 2px transparent;
   height: 38px;
-  width: 46px;
+  padding: 0;
 }
 
 .card__icon-button:focus {
