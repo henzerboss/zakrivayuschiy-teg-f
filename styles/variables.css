@@ -2,7 +2,7 @@
 
 :root {
   --main-font-family: "Inter-Variable";
-  --contrast-font-family: "PressStart2P-Regular";
+  --contrast-font-family: "PressStart2P";
   --title-contrast-font-weight: 700;
   --content-contrast-font-weight: 400;
   --variable-inline-size: clamp(375px, 90%, 700px);
