@@ -1,1 +1,1 @@
-https://henzerboss.github.io/zakrivayuschiy-teg-f/
+https://github.com/henzerboss/zakrivayuschiy-teg-f.git
